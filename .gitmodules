@@ -1,24 +1,12 @@
 [submodule "roles/base_packages"]
 	path = roles/base_packages
 	url = https://github.com/chaos-bodensee/role-base_packages.git
-[submodule "files/admin_ssh_keys"]
-	path = files/admin_ssh_keys
-	url = https://gitea.see-base.de/toolbox/ssh-public-keys.git
-[submodule "roles/ssh-auth"]
-	path = roles/ssh-auth
-	url = https://github.com/chaos-bodensee/role-ssh_authorized_keys.git
-[submodule "roles/sshd"]
-	path = roles/sshd
-	url = https://github.com/chaos-bodensee/role_sshd.git
 [submodule "roles/bat"]
 	path = roles/bat
 	url = https://github.com/gantsign/ansible_role_bat.git
 [submodule "roles/dotfiles"]
 	path = roles/dotfiles
 	url = https://github.com/chaos-bodensee/role_dotfiles.git
-[submodule "roles/manage-users"]
-	path = roles/manage-users
-	url = https://github.com/chaos-bodensee/role-manage_users.git
 [submodule "roles/ntp"]
 	path = roles/ntp
 	url = https://github.com/chaos-bodensee/role-ntp.git

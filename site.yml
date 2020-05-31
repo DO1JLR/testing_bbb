@@ -7,19 +7,6 @@
     - version
   gather_facts: no
 
-- name: setup auth, users and ssh
-  hosts: all
-  tags:
-    - auth
-    - user
-    - users
-    - ssh
-    - sshd
-  roles:
-    - sshd
-    - ssh-auth
-    - manage-users
-
 - name: install packages, ntp and setup dotfiles
   hosts: all
   tags:
