@@ -1,5 +1,5 @@
- testing bbb with lifestreaming
-===============================
+ testing bbb server stuff
+=========================
 
 This ansible playbook is **only** designed to set up a bbb server for **TESTING**!
 This means, we do not encrypt any secret variables via ansible-vault.
