@@ -12,6 +12,7 @@ admins:
   - l3d
 accounts:
   - l3d
+restrict_allow_users: false
 
 # enable basic version control check
 submodules_versioncheck: true
