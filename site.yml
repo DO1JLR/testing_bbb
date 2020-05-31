@@ -31,4 +31,10 @@
     - dotfiles
     - bat
 
-
+- name: install and configure bbb
+  hosts: bbb
+  tags:
+    - bbb
+    - bigbluebutton
+  roles:
+    - bigbluebutton

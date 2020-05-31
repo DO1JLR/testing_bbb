@@ -28,3 +28,6 @@
 [submodule "roles/ranger"]
 	path = roles/ranger
 	url = https://github.com/roles-ansible/role_ranger.git
+[submodule "roles/bigbluebutton"]
+	path = roles/bigbluebutton
+	url = https://github.com/n0emis/ansible-role-bigbluebutton.git
