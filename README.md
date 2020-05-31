@@ -8,6 +8,13 @@ As playbook we use the ``site.yml`` playbook.
 
 To use this role by yourself, you have to edit the fqdn host in the host.ini file and make sure, you can access it via root ssh.
 
+
+ What is this playbook doing?
+---------------------
+1. We install some base-packages.
+2. We add do1jlr's SSH Keys
+3. We install bigbluebutton
+
  some hints
 -----------
 To check out this repo properly checkout the submodules!
