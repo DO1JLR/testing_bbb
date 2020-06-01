@@ -36,4 +36,5 @@
     - bbb
     - bigbluebutton
   roles:
-    - bigbluebutton
+#    - bigbluebutton
+    - bbb_mail_fixed

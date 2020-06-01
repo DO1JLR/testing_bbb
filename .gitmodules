@@ -19,3 +19,6 @@
 [submodule "roles/bigbluebutton"]
 	path = roles/bigbluebutton
 	url = https://github.com/n0emis/ansible-role-bigbluebutton.git
+[submodule "roles/bbb_mail_fixed"]
+	path = roles/bbb_mail_fixed
+	url = https://github.com/DO1JLR/ansible-role-bigbluebutton.git
