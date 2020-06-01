@@ -2,5 +2,5 @@
 # enable basic version control check
 submodules_versioncheck: true
 
-# do not autoupdate packages
-upgrade_packages_to_latest_version: false
+# do autoupdate packages
+upgrade_packages_to_latest_version: true
