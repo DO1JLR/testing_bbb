@@ -7,5 +7,8 @@ bbb_greenlight_secret: 93e74e44d3252c780477cd234c84a75c
 bbb_greenlight_db_password: 55f8a77fd721769d6aea8039f90cc1c6
 bbb_letsencrypt_email: spam_spam_beautiful_trash@gmail.com
 
+# DISABLE Fucking registration mail
+bbb_require_email_verification: false
+
 # for testing disable dhparam
 bbb_nginx_dh: false
