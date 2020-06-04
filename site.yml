@@ -38,3 +38,5 @@
 #  roles:
 #    - bigbluebutton
 
+- name: try install scalelite
+  hosts: scalelite
