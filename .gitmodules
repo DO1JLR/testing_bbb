@@ -22,3 +22,6 @@
 [submodule "roles/rbenv"]
 	path = roles/rbenv
 	url = https://github.com/nephelaiio/ansible-role-rbenv.git
+[submodule "roles/scalelite"]
+	path = roles/scalelite
+	url = https://github.com/roles-ansible/role-scalelite.git
