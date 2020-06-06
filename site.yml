@@ -41,7 +41,6 @@
 - name: try install scalelite
   hosts: scalelite
   roles:
-    - rbenv
     - scalelite
   tags:
     - scalelite
