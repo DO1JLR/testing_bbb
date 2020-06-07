@@ -9,11 +9,17 @@ As playbook we use the ``site.yml`` playbook.
 To use this role by yourself, you have to edit the fqdn host in the host.ini file and make sure, you can access it via root ssh.
 
 
+For a overview which server we are using, **have a look into hosts.ini!**
+For the exact commit of the roles we are using please have a look at git submodules and the roles folder!
+
+
  What is this playbook doing?
 ---------------------
 1. We install some base-packages.
-2. We add do1jlr's SSH Keys
+2. We add do1jlr's and 0boro's SSH Keys
 3. We install bigbluebutton
+4. We install differen scalelite versions
+5. We try to connect everything (missing)
 
  some hints
 -----------
