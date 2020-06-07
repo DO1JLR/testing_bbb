@@ -20,6 +20,7 @@ For the exact commit of the roles we are using please have a look at git submodu
 3. We install bigbluebutton
 4. We install differen scalelite versions
 5. We install node-exporter (public, no passwort, no TLS) for optional monitoring
+  * We won't install bigbluebutton-exporter, because it is not public code.
 6. We try to connect everything (missing)
 
 
