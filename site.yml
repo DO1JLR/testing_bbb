@@ -30,13 +30,13 @@
       with_items:
         - https://github.com/do1jlr.keys
 
-#- name: install and configure bbb
-#  hosts: bbb
-#  tags:
-#    - bbb
-#    - bigbluebutton
-#  roles:
-#    - bigbluebutton
+- name: install and configure bbb
+  hosts: bbb
+  tags:
+    - bbb
+    - bigbluebutton
+  roles:
+    - bigbluebutton
 
 - name: try install scalelite
   hosts: scalelite
