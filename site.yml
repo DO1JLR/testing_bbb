@@ -57,3 +57,10 @@
   tags:
     - docker
     - docker-scalelite
+
+- name: install node-exporter
+  hosts: all
+  tags: node-exporter
+  roles:
+    - node-exporter
+

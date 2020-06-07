@@ -25,3 +25,6 @@
 [submodule "roles/docker-scalelite"]
 	path = roles/docker-scalelite
 	url = https://github.com/roles-ansible/role-scalelite.git
+[submodule "roles/node-exporter"]
+	path = roles/node-exporter
+	url = https://github.com/cloudalchemy/ansible-node-exporter.git
