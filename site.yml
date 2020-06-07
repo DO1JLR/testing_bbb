@@ -50,7 +50,7 @@
     - scalelite
 
 - name: try install scalelite with docker
-  hosts: scalelite
+  hosts: docker
   roles:
     - docker-scalelite
   tags:
