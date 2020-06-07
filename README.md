@@ -19,7 +19,9 @@ For the exact commit of the roles we are using please have a look at git submodu
 2. We add do1jlr's and 0boro's SSH Keys
 3. We install bigbluebutton
 4. We install differen scalelite versions
-5. We try to connect everything (missing)
+5. We install node-exporter (public, no passwort, no TLS) for optional monitoring
+6. We try to connect everything (missing)
+
 
  some hints
 -----------
