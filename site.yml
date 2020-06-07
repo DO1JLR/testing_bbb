@@ -31,8 +31,8 @@
         - https://github.com/do1jlr.keys
         - https://github.com/0boro.keys
 
-- hostname:
-    name: "{{ ansible_fqdn }}"
+    - hostname:
+        name: "{{ ansible_fqdn }}"
 
 - name: install and configure bbb
   hosts: bbb
