@@ -31,7 +31,8 @@
         - https://github.com/do1jlr.keys
         - https://github.com/0boro.keys
 
-    - hostname:
+    - name: set correkt fqdn
+      hostname:
         name: "{{ bbb_hostname }}"
 
 - name: install and configure bbb
