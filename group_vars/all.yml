@@ -1,6 +1,7 @@
 ---
 # enable basic version control check
 submodules_versioncheck: true
+bbb_hostname: "{{ ansible_fqdn }}"
 
 # do autoupdate packages
 upgrade_packages_to_latest_version: true

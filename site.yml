@@ -32,7 +32,7 @@
         - https://github.com/0boro.keys
 
     - hostname:
-        name: "{{ ansible_fqdn }}"
+        name: "{{ bbb_hostname }}"
 
 - name: install and configure bbb
   hosts: bbb

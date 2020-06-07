@@ -2,3 +2,4 @@
 bbb_coturn_secret: 5a124e7d23631788cb6ede41a60bdb03
 bbb_greenlight_secret: 93e74e44d3252c780477cd234c84a703
 bbb_greenlight_db_password: 55f8a77fd721769d6aea8039f90cc103
+bbb_hostname: bbb03.cyber.yt
