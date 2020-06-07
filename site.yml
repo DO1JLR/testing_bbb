@@ -42,9 +42,17 @@
   roles:
     - bigbluebutton
 
-- name: try install scalelite
+- name: try install scalelite without docker
   hosts: scalelite
   roles:
     - scalelite
   tags:
     - scalelite
+
+- name: try install scalelite with docker
+  hosts: scalelite
+  roles:
+    - docker-scalelite
+  tags:
+    - docker
+    - docker-scalelite

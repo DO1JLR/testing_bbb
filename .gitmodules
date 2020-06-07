@@ -22,3 +22,6 @@
 [submodule "roles/scalelite"]
 	path = roles/scalelite
 	url = https://github.com/roles-ansible/role-scalelite.git
+[submodule "roles/docker-scalelite"]
+	path = roles/docker-scalelite
+	url = https://github.com/roles-ansible/role-scalelite.git
