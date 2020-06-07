@@ -1,2 +1,4 @@
 ---
 bbb_hostname: scalelite.cyber.yt
+scalelite:
+  no_log: false
