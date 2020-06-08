@@ -1,0 +1,25 @@
+---
+- name: get bbb secret via 'bbb-conf --secret'
+  become: true
+  command: bbb-conf --secret
+  register: _bbb_config_output
+  changed_when: false
+
+- set_fact:
+    _bbb_config: "{{ _bbb_config_output.stdout  | regex_findall('sharedSecret=[A-Za-z0-9]*') | regex_replace('sharedSecret=' ) | string }}"
+
+- debug:
+    var: _bbb_config
+
+- name: Create fact directory
+  become: true
+  file:
+    path: /etc/ansible/facts.d/
+    state: directory
+
+- name: Create a static custom fact bbb_secret
+  become: true
+  copy:
+    content: "{{ _bbb_config }}"
+    dest: /etc/ansible/facts.d/bbb_secret.fact
+    backup: true

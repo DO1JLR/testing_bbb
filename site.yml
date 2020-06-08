@@ -38,16 +38,31 @@
 - name: install and configure bbb
   hosts: bbb
   tags:
+    - default
     - bbb
     - bigbluebutton
   roles:
     - bigbluebutton
+
+
+- name: gather bbb secret as facts
+  hosts: bbb
+  tags:
+    - default
+    - facts
+    - bbb-config
+    - secret
+  roles:
+    - bbb-secret
+
+
 
 - name: try install scalelite without docker
   hosts: scalelite
   roles:
     - scalelite
   tags:
+    - default
     - scalelite
 
 - name: try install scalelite with docker
