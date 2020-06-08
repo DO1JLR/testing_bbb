@@ -1,3 +1,4 @@
 ---
 scalelite:
   no_log: false
+  configure_scalelite: true
