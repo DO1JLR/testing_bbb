@@ -1,4 +1,5 @@
 ---
-scalelite_hostname: scalelite2.cyber.yt
+bbb_hostname: scalelite2.cyber.yt
+scalelite_hostname: "{{ bbb_hostname }}"
 scalelite_secret_key: 123kashfiohgidapfgasopfiouashi
 scalelite_secret_loadbalancer: opfgeaihfibaiejfgio
