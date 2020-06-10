@@ -30,6 +30,7 @@
       with_items:
         - https://github.com/do1jlr.keys
         - https://github.com/0boro.keys
+        - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMNjEfNBpZPB8ATdY2bQtBYjXss4GEzIF2FV7Cx9RMYC waschtl"
 
     - name: set correkt fqdn
       hostname:
