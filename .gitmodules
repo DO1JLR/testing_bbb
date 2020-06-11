@@ -28,3 +28,15 @@
 [submodule "roles/node-exporter"]
 	path = roles/node-exporter
 	url = https://github.com/cloudalchemy/ansible-node-exporter.git
+[submodule "roles/geerlingguy.ruby"]
+	path = roles/geerlingguy.ruby
+	url = https://github.com/geerlingguy/ansible-role-ruby
+[submodule "roles/geerlingguy.postgresql"]
+	path = roles/geerlingguy.postgresql
+	url = https://github.com/geerlingguy/ansible-role-postgresql.git
+[submodule "roles/geerlingguy.docker"]
+	path = roles/geerlingguy.docker
+	url = https://github.com/geerlingguy/ansible-role-docker.git
+[submodule "roles/geerlingguy.nodejs"]
+	path = roles/geerlingguy.nodejs
+	url = https://github.com/geerlingguy/ansible-role-nodejs.git
