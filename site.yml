@@ -45,16 +45,6 @@
   roles:
     - bigbluebutton
 
-#- name: gather bbb secret as facts
-#  hosts: bbb
-#  tags:
-#    - default
-#    - facts
-#    - bbb-config
-#    - secret
-#  roles:
-#    - bbb-secret
-
 - name: try install scalelite without docker
   hosts: scalelite
   roles:
@@ -70,6 +60,14 @@
   tags:
     - docker
     - docker-scalelite
+
+- name: try to install greenlight
+  hosts: greenlight
+  tags:
+    - default
+    - greenlight
+  roles:
+    - greenlight
 
 - name: install node-exporter
   hosts: all
