@@ -41,3 +41,8 @@ git config --global submodule.recurse true
 ```
 
 You can install ansible by executing ``sudo make install``.
+
+You can see scalelite secrets with:
+```
+ansible scalelite -m setup -a "filter=ansible_local"
+```
