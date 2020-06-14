@@ -2,3 +2,4 @@
 scalelite:
   no_log: false
   configure_scalelite: true
+  nginx_dh: false
