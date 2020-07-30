@@ -43,9 +43,6 @@
 [submodule "roles/greenlight"]
 	path = roles/greenlight
 	url = https://gitlab.com/0boro/greenlight.git
-[submodule "roles/mongodb"]
-	path = roles/mongodb
-	url = https://github.com/UnderGreen/ansible-role-mongodb.git
 [submodule "roles/bbbackend"]
 	path = roles/bbbackend
 	url = https://github.com/roles-ansible/ansible-role-bbbackend.git
