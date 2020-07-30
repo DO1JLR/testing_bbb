@@ -45,4 +45,4 @@
 	url = https://gitlab.com/0boro/greenlight.git
 [submodule "roles/mongodb"]
 	path = roles/mongodb
-	url = https://github.com/enix/ansible-mongodb.git
+	url = https://github.com/UnderGreen/ansible-role-mongodb.git
