@@ -77,7 +77,7 @@
     - bbb
     - backend
   roles:
-    # - mongodb
+    - mongodb
     - bbbackend
 
 - name: install node-exporter
