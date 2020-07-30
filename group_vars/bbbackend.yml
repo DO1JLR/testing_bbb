@@ -1,0 +1,5 @@
+---
+mongodb__version: 3.4
+mongodb__apt_repo: true
+
+bbbackend__hostname: "{{ inventory_hostname }}"

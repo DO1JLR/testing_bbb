@@ -69,6 +69,17 @@
   roles:
     - greenlight
 
+- name: try to setup backend bbb
+  hosts: bbbackend
+  become: true
+  tags:
+    - bbbackend
+    - bbb
+    - backend
+  roles:
+    # - mongodb
+    - bbbackend
+
 - name: install node-exporter
   hosts: all
   tags: node-exporter
