@@ -46,3 +46,6 @@
 [submodule "roles/bbbackend"]
 	path = roles/bbbackend
 	url = https://github.com/roles-ansible/ansible-role-bbbackend.git
+[submodule "roles/mongodb"]
+	path = roles/mongodb
+	url = https://github.com/roles-ansible/ansible-role-bbb-mongodb.git
