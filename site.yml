@@ -7,20 +7,12 @@
     - version
   gather_facts: no
 
-- name: install packages, ntp and setup dotfiles
-  hosts: all
-  tags:
-    - packages
-  roles:
-    - base_packages
-    - ranger
-    - ntp
-    - dotfiles
-    - bat
-
 - name: add more ssh keys (ugly)
   hosts: all
-  tags: ssh
+  tags:
+    - ssh
+    - pkgs
+    - packages
   tasks:
     - name: Set authorized keys taken from url
       authorized_key:
@@ -34,7 +26,20 @@
 
     - name: set correkt fqdn
       hostname:
-        name: "{{ bbb_hostname }}"
+        name: "{{ inventory_hostname }}"
+
+    - name: update to latest
+      become: true
+      package:
+        name: '*'
+        state: latest
+        register: x
+
+    - name: reboot
+      become: true
+      reboot:
+        reboot_timeout: 300
+      when: x.changed
 
 - name: install and configure bbb
   hosts: bbb
