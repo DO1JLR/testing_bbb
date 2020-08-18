@@ -33,7 +33,7 @@
       package:
         name: '*'
         state: latest
-        register: x
+      register: x
 
     - name: reboot
       become: true
